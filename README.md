@@ -14,18 +14,26 @@ Functionalities that are considered as part of this proposed investment manageme
 ➢For any closed invested instrument, calculate the return on investment by taking the closed value reference from the history.
 ➢ Represent the current holdings and return on investment data graphically for better visualization.
 ➢ Compute the derived values using below formulas.
+
 ➢ transaction value = purchase quantity*purchase price
+
 ➢ total quantity = sum of all purchase quantity
+
 ➢ instrument current value = current price*total quantity
+
 ➢ instrument gain/loss = instrument current value – (sum of all
 transaction values of instrument)
 3
  
 ➢ investment total value = sum of all current values of instruments
+
 ➢ account value = investment total value + cash balance
+
 ➢ total Gain/loss = sum of all instrument gain/loss.
+
 ➢ Return on investment of instrument = instrument gain or loss/sum of
 all transaction values of that instrument *100
+
 ➢ Total gain/loss of investment = sum of all instrument gain/loss.
 
 Stored procedures to find the returns with the inputs like Upper level of rate of return, lower level of rate of return and no of years of investment required. This will return the names of all the stock which will have the desired rate of return between lower and upper level and maturity.
